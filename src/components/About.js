@@ -15,13 +15,12 @@ export default class About extends Component {
             <div className="nine columns main-col">
 
                <h2>About Me</h2>
-               <p>
-               {
-                 resumeData.aboutme
-               }
-               </p>
+               <p>I'm currently a second-year student at Northeastern University in Boston.</p>
+               <p>I have a passion for technology and design, with a keen interest in both Machine Learning and Frontend/Backend development.</p>
+               <p>In my free time, I enjoy playing volleyball and immersing myself in various video games. These hobbies not only provide a great balance to my academic pursuits but also help me stay active and engaged.</p>
+               <p>I'm always eager to learn new things and take on challenging projects that allow me to grow my skills and contribute to meaningful work.</p>
 
-               <div className="row">
+               {/* <div className="row">
 
                   <div className="columns contact-details">
 
@@ -36,7 +35,7 @@ export default class About extends Component {
                     <span>{resumeData.website}</span>
        					   </p>
                   </div>
-               </div>
+               </div> */}
             </div>
          </div>
       </section>

@@ -425,6 +425,37 @@ ul#nav li.current a { color: #95A7CF; }
 }
 
 /* Portfolio Content */
+
+/* Center the portfolio items */
+#portfolio-wrapper {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center; /* Centers the items horizontally */
+   align-items: center; /* Centers the items vertically */
+ }
+ 
+ /* Ensure the item-wrap and images are centered */
+ .portfolio-item {
+   display: flex;
+   justify-content: center; /* Centers the item-wrap horizontally */
+   align-items: center; /* Centers the item-wrap vertically */
+ }
+ 
+ .item-wrap {
+   display: flex;
+   flex-direction: column;
+   align-items: center; /* Centers the content inside the item-wrap */
+   justify-content: center; /* Centers the content inside the item-wrap */
+ }
+ 
+ .item-img {
+   display: block;
+   margin: 0 auto;
+   max-width: 100%;
+   height: auto;
+ }
+ 
+
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
    background: #fff;
